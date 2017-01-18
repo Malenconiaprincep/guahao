@@ -6,8 +6,9 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#ed573f",
-    "navigationBarTitleText": "挂号提醒",
-    "navigationBarTextStyle":"white"
+    "navigationBarTitleText": "宝妈来了",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "list": [{

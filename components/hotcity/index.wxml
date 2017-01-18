@@ -1,3 +1,3 @@
 <template name="hotcity">
-  <view class="hotcity"><text>深圳</text> <icon class="iconfont icon-arrow"></icon> </view>
+  <view class="hotcity"><text>武汉</text>  </view>
 </template>

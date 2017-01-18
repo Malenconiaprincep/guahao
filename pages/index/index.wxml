@@ -2,6 +2,7 @@
 <import src="../../components/search/index.wxml"/>
 <import src="../../components/banner/index.wxml"/>
 <import src="../../components/hotcity/index.wxml"/>
+<import src="../../components/doctorlist/index.wxml"/>
 
 <!--index.wxml-->
 <view class="container">
@@ -12,5 +13,9 @@
         <template is="search" />
       </view>
     </view>
-    <template is="banner" data="{{...banner}}"/>
+    <view class="contentbar">
+      <scroll-view>
+        <template is="doctorlist" data="{{...doctorlist}}" />
+      </scroll-view>
+    </view>
 </view>

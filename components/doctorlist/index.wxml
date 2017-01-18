@@ -1,0 +1,19 @@
+<template name="doctorlist">
+  <view class="doctorlist">
+    <block wx:for="{{list}}" wx:key="unique">
+      <view class="list">
+        <view class="list_l">
+          <image src="{{item.pic}}" class="avatar"></image>
+        </view>
+        <view class="list_r">
+          <view class="name">
+            <text class="name">{{item.name}}</text>
+          </view>
+          <view class="desc">
+            <text>{{item.desc}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
