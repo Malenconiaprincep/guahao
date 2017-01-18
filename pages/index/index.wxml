@@ -1,8 +1,16 @@
+<import src="../../components/today/index.wxml"/>
+<import src="../../components/search/index.wxml"/>
 <import src="../../components/banner/index.wxml"/>
 <import src="../../components/hotcity/index.wxml"/>
 
 <!--index.wxml-->
 <view class="container">
+    <view class="topbar">
+      <template is="today" />
+      <view class="navbar">
+        <template is="hotcity" />
+        <template is="search" />
+      </view>
+    </view>
     <template is="banner" data="{{...banner}}"/>
-    <template is="hotcity" />
 </view>

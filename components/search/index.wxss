@@ -1,0 +1,10 @@
+.search {
+  background: white;
+  flex:3;
+  margin:0 30rpx ;
+  text-align:left;
+}
+
+.search input {
+  border-radius: 10rpx
+}

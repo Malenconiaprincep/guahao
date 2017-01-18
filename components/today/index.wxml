@@ -1,0 +1,6 @@
+<template name="today">
+    <view class="today">
+      <view class="temperature">28°</view>
+      <view class="date">2月10日, 星期五</view>
+    </view>
+</template>

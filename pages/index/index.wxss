@@ -1,7 +1,21 @@
+@import '../../components/today/index.wxss'
+@import '../../components/search/index.wxss'
 @import '../../components/banner/index.wxss'
 @import '../../components/hotcity/index.wxss'
 
 /**index.wxss**/
 .container {
   display: flex;
+}
+
+.topbar {
+  width:100%;
+  background: linear-gradient(to bottom, #ed573f, #efa159);
+}
+
+.navbar {
+  display:flex;
+  margin: 50rpx 0;
+  height: 60rpx;
+  line-height:60rpx;
 }

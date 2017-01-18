@@ -1,0 +1,12 @@
+.today {
+    margin: 50rpx 0 0 150rpx;
+}
+
+.today .temperature {
+    color:white;
+    font-size:120rpx;
+}
+
+.today .date {
+    color:white;
+}

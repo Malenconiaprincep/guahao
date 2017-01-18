@@ -1,10 +1,5 @@
 .hotcity {
-    width: 100%;
-    font-size:24rpx;
-    display:flex;
-    margin-top:10rpx;
-}
-
-.hotcity .flex-item {
+    color: white;
     flex:1;
+    text-align:center;
 }
