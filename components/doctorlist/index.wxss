@@ -1,16 +1,10 @@
 .doctorlist {
-
-}
-
-.doctorlist .list {
   margin:0 25rpx 50rpx;
   border:1px solid #cccccc;
   padding: 20rpx;
-  flex: 1;
-  display: flex;
 }
 
-.doctorlist .list .list_l {
+.doctorlist .list_l {
   flex: 1
 }
 
@@ -20,7 +14,7 @@
   border-radius: 100rpx;
 }
 
-.doctorlist .list .list_r {
+.doctorlist .list_r {
   flex: 3
 }
 

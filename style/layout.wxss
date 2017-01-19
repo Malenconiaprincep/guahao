@@ -1,1 +1,37 @@
 @import './font.wxss'
+
+page {
+  height:100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/*l_auto:占用剩下的*/
+
+.flex-auto {
+  flex: 1;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-vcenter {
+  align-items: center;
+}
+
+/** fill height of parent **/
+.flex-stretch {
+  align-items: stretch;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}

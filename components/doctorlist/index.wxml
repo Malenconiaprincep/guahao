@@ -1,19 +1,17 @@
 <template name="doctorlist">
-  <view class="doctorlist">
-    <block wx:for="{{list}}" wx:key="unique">
-      <view class="list">
-        <view class="list_l">
-          <image src="{{item.pic}}" class="avatar"></image>
+  <block wx:for="{{list}}" wx:key="unique">
+    <view class="doctorlist flex flex-auto">
+      <view class="list_l">
+        <image src="{{item.pic}}" class="avatar"></image>
+      </view>
+      <view class="list_r">
+        <view class="name">
+          <text class="name">{{item.name}}</text>
         </view>
-        <view class="list_r">
-          <view class="name">
-            <text class="name">{{item.name}}</text>
-          </view>
-          <view class="desc">
-            <text>{{item.desc}}</text>
-          </view>
+        <view class="desc">
+          <text>{{item.desc}}</text>
         </view>
       </view>
-    </block>
-  </view>
+    </view>
+  </block>
 </template>

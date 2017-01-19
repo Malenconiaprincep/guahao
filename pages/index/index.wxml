@@ -13,8 +13,8 @@
         <template is="search" />
       </view>
     </view>
-    <view class="contentbar">
-      <scroll-view>
+    <view class="contentbar flex flex-auto flex-column">
+      <scroll-view class="flex flex-auto" bindscrolltolower="lower" scroll-y="true">
         <template is="doctorlist" data="{{...doctorlist}}" />
       </scroll-view>
     </view>

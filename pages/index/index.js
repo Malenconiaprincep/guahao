@@ -4,5 +4,8 @@ import * as data from '../../model/index'
 console.log(data)
 var app = getApp()
 Page({
-  data
+  data,
+  lower(e) {
+      console.log(e)
+  }
 })
