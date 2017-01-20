@@ -11,12 +11,17 @@
     "enablePullDownRefresh": false
   },
   "tabBar": {
+    "selectedColor": "#ee8951",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "预约提醒",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home-hover.png"
     }, {
       "pagePath": "pages/logs/logs",
-      "text": "日志"
+      "text": "我的关注",
+      "iconPath": "image/my.png",
+      "selectedIconPath": "image/my-hover.png"
     }]
   }
 }
