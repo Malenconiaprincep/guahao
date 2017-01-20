@@ -6,9 +6,12 @@
       </view>
       <view class="list_r">
         <view class="name">
-          <text class="name">{{item.name}}</text>
+          <text class="bold">{{item.name}}</text>  <text class="font30">  {{item.protitle}}，{{item.posttitle}}</text>
         </view>
-        <view class="desc">
+        <view class="hospital mtop15 bold">
+          <text>{{item.hospital}}</text>
+        </view>
+        <view class="desc mtop30">
           <text>{{item.desc}}</text>
         </view>
       </view>

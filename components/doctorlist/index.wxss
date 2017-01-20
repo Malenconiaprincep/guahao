@@ -1,7 +1,7 @@
 .doctorlist {
   margin:0 25rpx 50rpx;
-  border:1px solid #cccccc;
-  padding: 20rpx;
+  border-bottom:1px solid #eca984;
+  padding: 30rpx 20rpx;
 }
 
 .doctorlist .list_l {
@@ -9,16 +9,25 @@
 }
 
 .list_l .avatar {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 100rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 150rpx;
 }
 
 .doctorlist .list_r {
-  flex: 3
+  flex: 3;
+  padding-left: 30rpx;
 }
 
 .list_r .name {
   color: #ee8951;
-  font-weight: bold;
+  font-size: 16px;
+}
+
+.list_r .hospital {
+  color: #eca984;
+}
+
+.list_r .desc {
+  color: #b6b6b6
 }
